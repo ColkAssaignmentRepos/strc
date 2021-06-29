@@ -10,4 +10,6 @@
 int main(void) {
     char char_array[STRING_LENGTH] = STRING_CONTENT;
     printf("%s\n", char_array);
+
+    return 0;
 }

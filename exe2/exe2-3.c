@@ -11,4 +11,6 @@ int main(void) {
 
     scanf("%s", char_array);
     printf("%s\n", char_array);
+
+    return 0;
 }
