@@ -12,7 +12,7 @@ int main(void) {
 
     for (int i = 0; i < STRING_LENGTH - 1; i++) {
         // その数より1大きい数が偶数なら、その数は必ず奇数である
-        if ((i+1) % 2 == 0) {
+        if ((i + 1) % 2 == 0) {
             putchar(char_array[i]);
         }
     }

@@ -20,6 +20,7 @@
 #define fatal_with_message(exit_code, ...) {print_error(__VA_ARGS__); exit(exit_code);}
 
 char **malloc_char_matrix(long long int row_length);
+
 void char_matrix_free(char **target, long long int row_length);
 
 

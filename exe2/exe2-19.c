@@ -2,14 +2,10 @@
 // Created by Manaki ITO on 2021/06/29.
 //
 #include <stdio.h>
-#include <stdlib.h>
 
 #define BUFFER_LENGTH 4096
 #define CHAR_EXCEPTIONS "0123456789"
 #define NUM_OF_EXCEPTIONS 10
-
-#define print_error(...) {fprintf(stderr, "\x1b[31m"); fprintf(stderr, __VA_ARGS__); fprintf(stderr, "\x1b[39m\n");}
-#define fatal_with_message(exit_code, ...) {print_error(__VA_ARGS__); exit(exit_code);}
 
 int is_char_in_query(char character, char query);
 

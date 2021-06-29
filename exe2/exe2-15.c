@@ -12,6 +12,7 @@
 #define fatal_with_message(exit_code, ...) {print_error(__VA_ARGS__); exit(exit_code);}
 
 long long int count_char_in_string(char *string, char query);
+
 long long int find_char(char *string, char query, long long int start_lookup_from_index);
 
 
@@ -36,7 +37,7 @@ int main(void) {
             continue;
         }
 
-        found_indexes[i] = find_char(str, QUERY_CHAR, found_indexes[i-1]+1);
+        found_indexes[i] = find_char(str, QUERY_CHAR, found_indexes[i - 1] + 1);
     }
 
     int is_found_index;
@@ -52,8 +53,7 @@ int main(void) {
 
         if (is_found_index) {
             putchar('^');
-        }
-        else {
+        } else {
             putchar(' ');
         }
     }

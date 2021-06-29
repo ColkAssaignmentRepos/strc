@@ -11,8 +11,7 @@ int main(void) {
 
     if (inputted_char == 'A' || inputted_char == 'B' || inputted_char == 'C') {
         printf("正解です\n");
-    }
-    else {
+    } else {
         printf("誤りです\n");
     }
 
