@@ -2,7 +2,6 @@
 // Created by Manaki ITO on 2021/06/29.
 //
 #include <stdio.h>
-#include <string.h>
 
 #define STRING_LENGTH 4096
 
