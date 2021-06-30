@@ -37,6 +37,8 @@ int main(void) {
         printf("Number of '%lld' in the string: %lld\n", i, results[i]);
     }
 
+    free(results);
+
     return 0;
 }
 
