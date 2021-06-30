@@ -70,6 +70,8 @@ int main(void) {
 
     putchar('\n');
 
+    free(found_indexes);
+
     return 0;
 }
 
