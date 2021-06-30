@@ -61,7 +61,7 @@ int main(void) {
 
     printf("Found '%c' at index:\n", QUERY_CHAR);
     for (long long int i = 0; i < number_of_founds; i++) {
-        printf("%lld", found_indexes[i]);
+        printf("%lld", found_indexes[i] + 1);
 
         if (i != number_of_founds - 1) {
             printf(", ");
